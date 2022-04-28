@@ -1,0 +1,35 @@
+{%extends 'my_site/Repeat.html' %}
+
+{%block title %}
+Project1
+{% endblock %}
+
+{%block content %}
+ <style>
+        #flip{
+          padding: 5px;
+          text-align: center;
+          background-color: #e5eecc;
+          border: solid 1px #c3c3c3;
+        }
+        #panel {
+          padding: 5px;
+          text-align: center;
+        }
+
+         #flip1 {
+         text-align: center;
+         color:green;
+
+         }
+         </style>
+
+
+        <h1 id="flip1">Kazakhstan Land</h1>
+        <div class="top-section" >
+            <h4 id="flip">Lowlands make up one-third of Kazakhstan’s huge expanse, hilly plateaus and plains account for nearly half, and low mountainous regions about one-fifth. Kazakhstan’s highest point, Mount Khan-Tengri (Han-t’eng-ko-li Peak) at 22,949 feet (6,995 metres), in the Tien Shan range on the border between Kazakhstan, Kyrgyzstan, and China, contrasts with the flat or rolling terrain of most of the republic. The western and southwestern parts of the republic are dominated by the low-lying Caspian Depression, which at its lowest point lies some 95 feet below sea level. South of the Caspian Depression are the Ustyurt Plateau and the Tupqaraghan (formerly Mangyshlak) Peninsula jutting into the Caspian Sea. Vast amounts of sand form the Greater Barsuki and Aral Karakum deserts near the Aral Sea, the broad Betpaqdala Desert of the interior, and the Muyunkum and Kyzylkum deserts in the south. Most of these desert regions support slight vegetative cover fed by subterranean groundwater.
+
+        </h4>
+         <div id="panel"><embed type="image/jpg" src="https://www.mdpi.com/agriculture/agriculture-10-00568/article_deploy/html/images/agriculture-10-00568-g003a.png" width="600" height="300"></div>
+        </div>
+            {% endblock %}

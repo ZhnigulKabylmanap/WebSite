@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<body>
+
+<h3>Personal Information</h3>
+
+<form action=" " method="post" >
+{% csrf_token %}
+
+<div>
+<label for="id_{{ form.name.name }}">Name</label>
+{{ form.name }} <span>{{ form.name.errors.0 }}</span>
+</div>
+
+<div>
+<label for="id_{{ form.Surname.Surname }}">Surname</label>
+{{ form.Surname }} <span>{{ form.Surname.errors.0 }}</span>
+</div>
+
+<div>
+<label for="id_{{ form.age.age }}">Age</label>
+{{ form.age }} <span>{{ form.age.errors.0 }}</span>
+</div>
+
+<div>
+<label for="id_{{ form.is_Address.Address}}">Address</label>
+{{ form.Address}} <span>{{ form.Address.errors.0 }}</span>
+</div>
+
+<div>
+<label for="id_{{ form.Email.Email }}">Email</label>
+{{ form.Email}} <span>{{ form.Email.errors.0 }}</span>
+</div>
+
+<div>
+<label for="id_{{ form.Password.Password}}">Password</label>
+{{ form.Password}} <span>{{ form.Password.errors.0 }}</span>
+</div>
+
+<div>
+<label for="id_{{ form.is_published.is_published}}">Remember Password</label>
+{{ form.is_published}} <span>{{ form.is_published.errors.0 }}</span>
+</div>
+
+<button type="submit" >Submit</button>
+</form>
+
+
+
+
+</body>
+</html>

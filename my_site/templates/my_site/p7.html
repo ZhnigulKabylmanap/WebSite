@@ -1,0 +1,43 @@
+{%extends 'my_site/Repeat.html' %}
+
+{%block title %}
+Project1
+{% endblock %}
+
+{%block content %}
+
+ <h1 id="flip">How much do you know about Kazahstan???</h1>
+    <style>
+           #flip{
+          text-align: center;
+          color: brown;
+           }
+</style>
+<h5>
+ <p>Do you like Kazakhstan</p>
+        <input type="radio" name="a">Yes<br>
+        <input type="radio" name="a">No<br>
+<hr>
+ <p>Who is current president of Kazakstan</p>
+        <input type="radio" name="b">Nursultan Nazarbaev<br>
+        <input type="radio" name="b">Kassym-Jomart Tokayev<br>
+        <input type="radio" name="b">Askar mamin<br>
+<hr>
+<p>Which of the following is a traditional instruction of Kazahstan</p>
+        <input type="radio" name="c">Piano<br>
+        <input type="radio" name="c">Dombra<br>
+        <input type="radio" name="c">Violin<br>
+<hr>
+<p>Which festival is in kazahstan at 22.3</p>
+        <input type="radio" name="d">Nauryz<br>
+        <input type="radio" name="d">Kurban<br>
+        <input type="radio" name="d">Republic Day<br>
+<hr>
+    <p>How big is Kazahstan</p>
+        <input type="radio" name="d">2725000 square kilometers<br>
+        <input type="radio" name="d">3000000 square kilometers<br>
+        <input type="radio" name="d">2560000 square kilometers<br>
+
+</h5>
+
+{% endblock %}
